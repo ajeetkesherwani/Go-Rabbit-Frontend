@@ -1,43 +1,12 @@
-# Go Rabbit Admin Panel (Frontend)
+# React + Vite
 
-This repository contains the frontend code for the **Go Rabbit Admin Panel**, a web-based dashboard built with **React** and **Node.js**. This panel allows administrators to manage users, content, settings, and overall platform operations for the Go Rabbit system.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 📊 Responsive admin dashboard
-- 👥 User management
-- 📦 Content moderation and control
-- ⚙️ Settings and configuration
-- 🔐 Secure authentication & authorization
-- 🌐 API integration with backend services
-- 📁 Modular and scalable React codebase
+## Expanding the ESLint configuration
 
----
-
-## 🛠️ Tech Stack
-
-- **Frontend**: React, React Router, Redux (if used), Axios, Tailwind CSS / Bootstrap / Material UI (choose based on your UI library)
-- **Backend (API Integration)**: Node.js (Express)
-- **Authentication**: JWT / OAuth (based on your implementation)
-- **Build Tooling**: Webpack / Vite / Create React App
-
----
-
-## 📦 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-org/go-rabbit-admin-panel.git
-cd go-rabbit-admin-panel
-
-# Install dependencies
-npm install
-
-# Create a .env file and configure environment variables
-cp .env.example .env
-
-# Start the development server
-npm run dev
-
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
